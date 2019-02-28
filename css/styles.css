@@ -1,27 +1,32 @@
+html{
+  /* font-size: calc(112.5% + 3vw) ; */
+}
+
 body{
-  margin:0;
+  max-width: 1200px;
+  margin:0 auto;
   padding: 0;
   background-color:skyblue;
   color: black;
-  font-size: 15px;
   line-height: 2;
   font-family:'arial black';
-
+  font-size: calc(112.5% + 0.25vw) ;
 }
 
-#wrap{
+.wrap{
   margin: 0 auto ;
   width: auto;
-  max-width: 960px;
+  max-width: 980px;
 }
 
 header {
   margin: 0 auto 20px;
-  width:960px;
-  height: 80px;
+  max-width:980px;
+  min-height: 80px;
+  height: auto;
   background-color:pink;
-
 }
+
 a {
   color: #fff;
   text-decoration: none;
@@ -43,16 +48,15 @@ a:visited{
 }
 .global-nav li {
   float: left;
-  padding: 0 30px;
+  padding: 0 20px;
   margin: 0 10px;
-  font-size: 20px;
+  /* font-size: 20px; */
   list-style: none;
 }
 
 header h1 {
   margin: 0 auto;
-  font-size: 40px;
-
+  /* font-size: 40px; */
 }
 
 #main {
@@ -60,7 +64,7 @@ header h1 {
   height:600px;
 }
 
-.title h1,.title p{
+#main h1,#main p{
   margin: 0 auto;
   padding-top: 100px ;
   color: #fff;
@@ -68,17 +72,17 @@ header h1 {
 }
 
 main h1{
-  font-size: 80px;
+  /* font-size: 80px; */
 }
 
 main h2{
   margin-top: 20px;
   text-align: center;
-  font-size: 40px;
+  /* font-size: 40px; */
 }
 
 main p{
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 
 
@@ -87,10 +91,11 @@ main p{
   background-color: #fff;
 }
 .contain p{
-  margin: 0 auto;
+  margin: auto;
+  padding: 0 15px;
   display: block;
   width: 600px;
-  height: 300px;
+  height: auto;
 }
 .about{
   display: flex;
@@ -124,7 +129,7 @@ main p{
 
 footer{
   margin: 0 auto ;
-  width:960px;
+  max-width:980px;
   height: 80px;
   background-color:pink;
 
