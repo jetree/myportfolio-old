@@ -46,13 +46,12 @@ a:visited{
   float: left;
   padding: 0 20px;
   margin: 0 10px;
-  /* font-size: 20px; */
   list-style: none;
 }
 
 header h1 {
   margin: 0 auto;
-  /* font-size: 40px; */
+  font-size: 2rem;
 }
 
 #main {
@@ -62,25 +61,20 @@ header h1 {
 
 #main h1,#main p{
   margin: 0 auto;
-  padding-top: 100px ;
+  padding: 100px 10px 0 ;
   color: #fff;
   text-align: center;
 }
 
 main h1{
-  /* font-size: 80px; */
+  font-size: 4rem;
 }
 
 main h2{
   margin-top: 20px;
   text-align: center;
-  /* font-size: 40px; */
+  font-size: 2rem;
 }
-
-main p{
-  /* font-size: 20px; */
-}
-
 
 .contain{
   min-height: 600px;
@@ -88,10 +82,11 @@ main p{
 }
 .contain p{
   margin: auto;
-  padding: 0 15px;
+  padding: 30px 15px;
   display: block;
   width: 600px;
   height: auto;
+  line-height: 1.75;
 }
 .about{
   display: flex;
@@ -121,6 +116,7 @@ main p{
   text-align: center;
   vertical-align: middle;
   line-height:  250px;
+  font-size: 30px;
 }
 
 footer{
