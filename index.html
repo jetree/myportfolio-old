@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>jetreeのポートフォリオサイト</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   </head>
   <body>
 <!-- header -->
@@ -13,14 +14,33 @@
       <div class="logo">
         <h1><a href="index.html">Jetree's Portfolio</a></h1>
       </div>
-      <nav>
+      <nav id="pc-nav">
         <ul class="global-nav">
           <li><a href="#about">about</a></li>
-          <li><a href="#">works</a></li>
+          <li><a href="#works">works</a></li>
           <li><a href="#">contact</a></li>
         </ul>
       </nav>
+      <div id="sp-nav" class="">
+        <input id="nav-input" type="checkbox" class="nav-unshown" >
+        <label id="nav-open" for="nav-input"></label>
+        <label id="nav-close" for="nav-input"></label>
+        <div class="nav-content">
+          <nav>
+            <div class="sp-menu">
+              <i class="fas fa-bars"></i>
+            </div>
+            <ul class="sp-global-nav">
+              <li>menu</li>
+              <li><a href="#about">about</a></li>
+              <li><a href="#works">works</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </div>
+    <div class="clear"></div>
   </header>
 <!-- main -->
     <main id="title" class="wrap" >
@@ -37,7 +57,7 @@
         <div class="about-img">
           <img src="imgs/about.jpg" alt="写真" class="about-img">
         </div>
-        <p>平成元年生まれの30歳。２児の父。愛知県出身。地元の文系大学を卒業後、2011年　自動車部品の工場に勤める。有給消化中に1冊のエクセルVBAの本と出合う。
+        <p>平成元年生まれの30歳。愛知県出身。２児の父。地元の文系大学を卒業後、2011年　自動車部品の工場に勤める。有給消化中に1冊のエクセルVBAの本と出合う。
           2016年　商社に転職。業務の自動化・簡易化に取り組む。さらにプログラミングに興味を持ち、html・cssから勉強をはじめ約1カ月でこのサイトを立ち上げる。</p>
       </div>
     </main>

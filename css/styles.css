@@ -18,7 +18,7 @@ header{
 }
 
 #header{
-  min-height: 100px;
+  min-height: 60px;
 
 }
 
@@ -29,7 +29,7 @@ header{
 }
 
 
-a {
+li, a {
   color: #fff;
   text-decoration: none;
   display: block;
@@ -37,7 +37,10 @@ a {
 a:visited{
   color: #fff;
 }
- li a:hover{
+
+
+
+.global-nav li a:hover{
   transform: scale(1.2);
 }
 
@@ -57,12 +60,52 @@ a:visited{
 
 header h1 {
   margin: 0 auto;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
 }
+.clear{
+clear: both;
+}
+.sp-menu{
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  top:0;
+  right: 0;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+}
+
+#sp-nav{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70%;
+}
+#nav-input{
+  display: none;
+}
+
+.sp-global-nav{
+  display: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.sp-global-nav li{
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #222;
+  opacity: 0.6;
+
+}
+
 
 #main {
   background-image: url("../imgs/main2.jpg");
+  background-size: cover;
   height:600px;
+
 }
 
 #main h1,#main p{
@@ -142,4 +185,14 @@ footer p {
   padding-top: 20px;
   text-align: center;
   color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  #pc-nav{
+      display:none;
+    }
+  .sp-global-nav{
+      display: block;
+
+  }
 }
