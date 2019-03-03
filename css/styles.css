@@ -68,7 +68,7 @@ clear: both;
 .sp-menu{
   width: 60px;
   height: 60px;
-  position: fixed;
+  position: absolute  ;
   top:0;
   right: 0;
   text-align: center;
@@ -77,28 +77,42 @@ clear: both;
 }
 
 #sp-nav{
+  display: none;
   position: absolute;
   top: 0;
   right: 0;
-  width: 70%;
+  width: 100%;
 }
 #nav-input{
   display: none;
 }
 
-.sp-global-nav{
+#nav-close{
   display: none;
+}
+.sp-global-nav{
+  /* display: none; */
   padding: 0;
   margin: 0;
   list-style: none;
 }
 .sp-global-nav li{
+  font-weight: bold;
   text-align: center;
   padding: 10px 20px;
   background-color: #222;
-  opacity: 0.6;
-
+  opacity: 0.8;
 }
+
+
+#nav-input:checked ~ #nav-close {
+  display: block;
+}
+#nav-input:checked ~ #nav-open {
+  display: none;
+}
+
+
 
 
 #main {
@@ -191,7 +205,7 @@ footer p {
   #pc-nav{
       display:none;
     }
-  .sp-global-nav{
+  #sp-nav{
       display: block;
 
   }
