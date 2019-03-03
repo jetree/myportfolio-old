@@ -74,6 +74,7 @@ clear: both;
   text-align: center;
   font-size: 30px;
   color: #fff;
+  z-index:1
 }
 
 #sp-nav{
@@ -82,6 +83,7 @@ clear: both;
   top: 0;
   right: 0;
   width: 100%;
+  z-index: 2
 }
 #nav-input{
   display: none;
@@ -111,9 +113,6 @@ clear: both;
 #nav-input:checked ~ #nav-open {
   display: none;
 }
-
-
-
 
 #main {
   background-image: url("../imgs/main2.jpg");
