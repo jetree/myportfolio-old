@@ -1,5 +1,5 @@
 html{
-  font-size: calc(112.5% + 0.25vw) ;
+  font-size: calc(100% + 1vw) ;
 }
 
 body {
@@ -25,7 +25,7 @@ header{
 .wrap{
   margin: 0 auto ;
   width: auto;
-  max-width: 980px;
+  max-width: 1200px;
 }
 
 
@@ -47,10 +47,12 @@ a:visited{
 .logo {
   float: left;
 }
-
+ul{
+  margin:20px auto;
+}
 .global-nav {
   float: right;
-}
+  }
 .global-nav li {
   float: left;
   padding: 0 20px;
@@ -117,7 +119,7 @@ clear: both;
 #main {
   background-image: url("../imgs/main2.jpg");
   background-size: cover;
-  height:600px;
+  height:700px;
 
 }
 
@@ -158,7 +160,7 @@ main h2{
 .about-img{
   width: 300px;
   height: 300px;
-  margin: 10px auto;
+  margin:  auto;
 }
 
 .works {
