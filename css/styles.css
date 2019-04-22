@@ -157,6 +157,7 @@ main h2{
   flex-wrap: wrap;
 }
 .about-me{
+  margin: 0 auto;
   width: 500px;
 
 }
