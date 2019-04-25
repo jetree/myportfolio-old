@@ -213,27 +213,6 @@ main h2{
   color: #000;
   font-size: 0.8rem;
 }
-/* skill */
-.skill-container{
-  display: flex;
-}
-.skill-item{
-  margin: 20px;
-  width: 200px;
-  height:200px;
-  text-align: center;
-  vertical-align: middle;
-}
-.skill-icon{
-  font-size: 120px;
-}
-.skill-txt{
-  margin: 0;
-  display: inline;
-  font-size:40px;
-
-}
-/* skill */
 
 footer{
   width: 100%;
