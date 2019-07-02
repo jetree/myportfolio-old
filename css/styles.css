@@ -200,6 +200,11 @@ main h2{
   font-size: 30px;
 
 }
+.skill-logo{
+  width: 200px;
+  height: auto;
+
+}
 .works-item{
   width: 250px;
   height: 250px;
